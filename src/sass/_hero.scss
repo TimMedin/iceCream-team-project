@@ -1,0 +1,107 @@
+.hero {
+    background: #FFB8CA;
+}
+
+.hero-heading {
+    width: 300px;
+    color: #FFF;
+    font-family: Titan One;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.52px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.passion {
+    color: #D41443;
+    font-family: Titan One;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90.5%;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+}
+
+.hero-btn-one {
+    color: #FFF;
+    margin-right: 15px;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    background: #D41443;
+    width: 104px;
+    height: 40px;
+}
+
+.hero-box {
+    padding-top: 171px;
+    margin-bottom: 55px;
+}
+
+.hero-btn-two {
+    width: 138px;
+    height: 40px;
+    color: #D41443;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.hero-milk-img {
+    width: 188px;
+    height: 191px;
+}
+
+.hero-box-two {
+    display: flex;
+    width: 1135px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.hero-text-two {
+    width: 200px;
+    color: #FFF;
+    margin-top: 40px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+.hero-img-ice {
+    width: 236px;
+    height: 557px;
+    position: absolute;
+    top: 113px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.hero-ice-circle-img {
+    width: 538px;
+    height: 538px;
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
