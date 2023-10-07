@@ -1,0 +1,57 @@
+
+nav {
+    position: absolute;
+    display: flex;
+    padding-top: 30px;
+    position: absolute;
+    padding-left: 46px;
+    align-items: center;
+}
+
+.logo-nav {
+    width: 199px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 110px;
+}
+
+.nav-pink {
+    color: #D41443 !important;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-left: 35px;
+}
+
+.nav-btn {
+    width: 159px;
+    height: 44px;
+    margin-left: 110px;
+    color: #D41443;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 22px;
+    background: #FFF;
+}
+
+
