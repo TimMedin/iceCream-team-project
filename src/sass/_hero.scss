@@ -44,6 +44,7 @@
 .hero-box {
     padding-top: 171px;
     margin-bottom: 55px;
+    position: relative;
 }
 
 .hero-btn-two {
@@ -89,7 +90,7 @@
     height: 557px;
     position: absolute;
     top: 113px;
-    left: 0;
+    left: 485px;
     right: 0;
     margin: 0 auto;
     z-index: 2;
@@ -100,8 +101,8 @@
     height: 538px;
     position: absolute;
     top: 52px;
-    left: 10px;
+    left: 475px;
     right: 0;
     margin: 0 auto;
-    z-index: 1;
+    z-index: 0;
 }

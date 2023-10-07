@@ -1,11 +1,13 @@
 
 nav {
-    position: absolute;
+    position: relative;
     display: flex;
     padding-top: 30px;
     position: absolute;
     padding-left: 46px;
     align-items: center;
+    z-index: 10;
+
 }
 
 .logo-nav {
@@ -36,7 +38,7 @@ nav {
 }
 
 .nav-list-item:not(:last-child) {
-    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .nav-btn {
