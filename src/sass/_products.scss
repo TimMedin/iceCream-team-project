@@ -1,4 +1,5 @@
-.products{
+
+.products {
     padding-top: 127px;
     padding-bottom: 119px;
     padding-left: 117px;
@@ -6,12 +7,14 @@
     background-color: #FFF;
 }
 
-.onefamily{
+
+.onefamily {
     text-align: center;
     font-family: "Titan One";
 }
 
-.pre-products-heading{
+
+.pre-products-heading {
     color: #FFA5BA;
     font-size: 30px;
     font-style: normal;
@@ -22,7 +25,7 @@
     margin-bottom: 15px;
 }
 
-.products-heading{
+.products-heading {
     color: #D41443;
     font-size: 58px;
     font-style: normal;
@@ -33,25 +36,36 @@
     margin-bottom: 49px;
 }
 
-.products-list{
+.products-list {
     display: flex;
     justify-content: center;
-    &:not(:last-child){
-        margin-right: 29px;
-    }
+    margin-top: 259px;
 }
 
 .product {
+    position: relative;
     width: 329px;
     height: 525px;
     border-radius: 24px;
+    padding-top: 163px;
     padding-right: 44px;
     padding-left: 44px;
     padding-bottom: 50px;
-    background: #FFB8CA;
     &:not(:last-child) {
-        margin-right: 29px;
-        
+            margin-right: 29px;
+        }
+    
+    &::before{
+        content: "";
+        display: block;
+        width: 335px;
+        height: 335px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -210px;
+        left: 0;
     }
 }
 
@@ -80,6 +94,7 @@
 
 .three_dots {
     margin-bottom: 35px;
+    font-size: 30px;
 }
 
 .product-text {
@@ -94,11 +109,40 @@
 }
 
 .product-button {
+    display: block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    &:hover{
+    margin: auto;
+
+    &:hover {
         cursor: pointer;
+    }
+}
+
+
+.product_div_color_pink {
+    background: #FFB8CA;
+    &::before {
+            content: "";
+            background-image: url("../images/strawberry-ice-1x.png");
+
+        }
+}
+
+.product_div_color_yellow {
+    background: #F0D1A5;
+    &::before {
+            content: "";
+            background-image: url("../images/ice-coffe-1x.png");
+        }
+}
+
+.product_div_color_green {
+    background: #C2E297;
+    &::before{
+        content: "";
+        background-image: url("../images/milkshake-1x.png");
     }
 }
 
