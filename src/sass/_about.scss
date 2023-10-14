@@ -73,6 +73,53 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
+.aboutbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aboutpart{
+    display: flex;
+    flex-direction: column;
+}
+.aboutparth{
+    color: #D41443;
+font-family: Titan One;
+font-size: 58px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.32px;
+text-transform: uppercase;
+margin-top: 40px;
+}
+.aboutpartp{
+    color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 176%; /* 28.16px */
+letter-spacing: 0.32px;
+margin-top: 15px;
+}
+.abouticon1{
+    width: 33px;
+height: 50px;
+flex-shrink: 0;
+}
+.abouticon2{
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+}
+.abouticon3{
+    width: 44px;
+height: 50px;
+flex-shrink: 0;
+}
+.about2part{
+    background: #FFF5F6;
+}
 
 
