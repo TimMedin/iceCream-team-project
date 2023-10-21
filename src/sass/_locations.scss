@@ -76,6 +76,15 @@
     font-weight: 500;
     line-height: 186%; /* 29.76px */
     letter-spacing: 0.64px;
+    @include adaptive(tablet-only) { 
+        color: #000;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%; /* 26.04px */
+        letter-spacing: 0.56px;
+     }
 }
 
 .locations-h2 {
@@ -87,6 +96,15 @@
     line-height: 186%; /* 29.76px */
     letter-spacing: 0.64px;
     margin-bottom: 10px;
+     @include adaptive(tablet-only) { 
+        color: #000;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%; /* 26.04px */
+        letter-spacing: 0.56px;
+     }
 }
 
 .locations-text {
@@ -100,6 +118,17 @@
     letter-spacing: 0.64px;
     border-bottom: 1px  solid #907E82;
     margin-bottom: 12px;
+    @include adaptive(tablet-only) { 
+        // width: 145px;
+        // height: 65px;
+        color: #907E82;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 166%; /* 23.24px */
+     }
+    
 }
 
 .locations-time-text {

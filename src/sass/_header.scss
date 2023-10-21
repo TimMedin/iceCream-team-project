@@ -10,6 +10,9 @@ nav {
     @include adaptive(tablet-only) { 
        padding-left: 34px;
     }
+    @include adaptive(mobile-only) { 
+        padding-left: 20px;  
+    }
 
 }
 
@@ -45,7 +48,7 @@ nav {
         margin-left: 0;
     }
      @include adaptive(mobile-only) { 
-        margin-left: 61px;
+        margin-left: 23.5%;
     }
 }
 
