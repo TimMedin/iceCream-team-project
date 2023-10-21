@@ -8,7 +8,7 @@
 .abouth3{
 color: #FFA5BA;
 text-align: center;
-font-family: Titan One;
+font-family: "Titan One";
 font-size: 30px;
 font-style: normal;
 font-weight: 400;
@@ -20,7 +20,7 @@ text-transform: uppercase;
 .abouth2{
     color: #D41443;
 text-align: center;
-font-family: Titan One;
+font-family: "Titan One";
 font-size: 58px;
 font-style: normal;
 font-weight: 400;
@@ -38,7 +38,7 @@ text-transform: uppercase;
 }
 .aboutp1{
     color: #000;
-font-family: DM Sans;
+font-family: "DM Sans";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -48,7 +48,7 @@ margin-bottom: 35px;
 }
 .aboutp2{
     color: #907E82;
-font-family: DM Sans;
+font-family: "DM Sans";
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -62,16 +62,21 @@ margin-bottom: 45px;
 }
 .aboutbtn{
     border-radius: 22px;
-background: #fff;     
-width: 176px;
-height: 44px;
-color: #D41443;
-text-align: center;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    background: #fff;     
+    width: 176px;
+    height: 44px;
+    color: #D41443;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    &:hover {
+        background-color: #ECEBEB;
+        cursor: pointer;
+    }
 }
 .aboutbox{
     display: flex;
@@ -82,44 +87,50 @@ line-height: normal;
     display: flex;
     flex-direction: column;
 }
+
 .aboutparth{
     color: #D41443;
-font-family: Titan One;
-font-size: 58px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.32px;
-text-transform: uppercase;
-margin-top: 40px;
+    font-family: "Titan One";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    margin-top: 40px;
 }
+
 .aboutpartp{
     color: #000;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 176%; /* 28.16px */
-letter-spacing: 0.32px;
-margin-top: 15px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 176%; /* 28.16px */
+    letter-spacing: 0.32px;
+    margin-top: 15px;
 }
+
 .abouticon1{
     width: 33px;
-height: 50px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
 }
 .abouticon2{
     width: 50px;
-height: 50px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
 }
+
 .abouticon3{
     width: 44px;
-height: 50px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
 }
+
 .about2part{
     background: #FFF5F6;
+    padding-bottom: 139px;
 }
 
 

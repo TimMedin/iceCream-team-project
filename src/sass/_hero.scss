@@ -13,6 +13,30 @@
     letter-spacing: 1.52px;
     text-transform: uppercase;
     margin-bottom: 25px;
+    @include adaptive(tablet-only) { 
+        width: 202px;
+        color: #FFF;
+        font-family: Titan One;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.88px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+    @include adaptive(mobile-only) { 
+        width: 203px;
+        font-family: Titan One;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.04px;
+        margin-left: 5px; 
+        z-index: 100; 
+        position: relative; 
+    }
 }
 
 .passion {
@@ -24,6 +48,25 @@
     line-height: 90.5%;
     letter-spacing: 2.32px;
     text-transform: uppercase;
+    @include adaptive(tablet-only) { 
+        color: #D41443;
+        font-family: Titan One;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90.5%;
+        letter-spacing: 1.36px;
+        text-transform: uppercase;
+    }
+    @include adaptive(mobile-only) { 
+        color: #D41443;
+        font-family: Titan One;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 96.5%;
+        text-transform: uppercase;
+    }
 }
 
 .hero-btn-one {
@@ -39,12 +82,35 @@
     background: #D41443;
     width: 104px;
     height: 40px;
+    @include adaptive(tablet-only) { 
+        width: 61px;
+        height: 24px;
+        color: #FFF;
+        font-size: 8px;
+        margin-left: 20px;
+    }
+    @include adaptive(mobile-only) { 
+        width: 61px;
+        height: 24px;
+        color: #FFF;
+        font-size: 8px;
+        z-index: 10;
+        position: relative;
+       
+    }
 }
 
 .hero-box {
     padding-top: 171px;
     margin-bottom: 55px;
     position: relative;
+    @include adaptive(tablet-only) { 
+       padding-top: 100px;
+       margin-bottom: 4px;
+    }
+    @include adaptive(mobile-only) { 
+        padding-bottom: 160px;
+     }
 }
 
 .hero-btn-two {
@@ -59,6 +125,19 @@
     line-height: normal;
     border-radius: 20px;
     background: #FFF;
+    z-index: 10;
+    @include adaptive(tablet-only) { 
+        width: 82px;
+        height: 24px;
+        font-size: 8px;
+    }
+    @include adaptive(mobile-only) { 
+        position: relative;
+        width: 82px;
+        height: 24px;
+        font-size: 8px;
+        z-index: 10;
+    }
 }
 
 .hero-milk-img {
@@ -72,6 +151,12 @@
     padding: 0px 10px;
     margin: 0 auto;
     padding-bottom: 45px;
+    @include adaptive(tablet-only) { 
+        padding-left: 34px;
+    }
+    @include adaptive(mobile-only) { 
+        display: none;
+    }
 }
 
 .hero-text-two {
@@ -90,10 +175,23 @@
     height: 557px;
     position: absolute;
     top: 113px;
-    left: 485px;
+    left: 180px;
     right: 0;
     margin: 0 auto;
     z-index: 2;
+    @include adaptive(tablet-only) { 
+        width: 173px;
+        height: 387px;
+        top: 83px;
+        left: 265px;
+     }
+     @include adaptive(mobile-only) { 
+        width: 171px;
+        height: 410px;
+        top: 78px;
+        left: 105px;
+        z-index: 2;  
+     }
 }
 
 .hero-ice-circle-img {
@@ -101,8 +199,38 @@
     height: 538px;
     position: absolute;
     top: 52px;
-    left: 475px;
+    left: 180px;
     right: 0;
     margin: 0 auto;
     z-index: 0;
+    @include adaptive(tablet-only) { 
+        width: 324px;
+        height: 322px;
+        top: 31px;
+        left: 307px;
+     }
+     @include adaptive(mobile-only) { 
+        display: none;
+     }
+}
+
+.hero-girl-img {
+    width: 293px;
+    height: 232px;
+    position: absolute;
+    top: 439px;
+    left: 779px;
+    right: 0;
+    margin: 0 auto;
+    z-index: 0;
+    @include adaptive(tablet-only) { 
+        width: 168px;
+        height: 133px;
+        top: 339px;
+        left: 564px;
+        
+     }
+     @include adaptive(mobile-only) { 
+        display: none;
+     }
 }

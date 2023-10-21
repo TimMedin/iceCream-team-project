@@ -7,6 +7,9 @@ nav {
     padding-left: 46px;
     align-items: center;
     z-index: 10;
+    @include adaptive(tablet-only) { 
+       padding-left: 34px;
+    }
 
 }
 
@@ -17,7 +20,37 @@ nav {
 .nav-list {
     display: flex;
     margin-left: 110px;
+    @include adaptive(tablet-only) { 
+        display: none; 
+    }
+    @include adaptive(mobile-only) { 
+        display: none; 
+    }
 }
+
+.burger-nav {
+    color: #D41443;
+    display: block;
+    margin-right: 30px;
+    
+    @include adaptive(desktop) {
+        display: none !important;
+    }
+   
+}
+
+.nav-btn-box  {
+    margin-left: 291px; 
+    @include adaptive(desktop) {
+        margin-left: 0;
+    }
+     @include adaptive(mobile-only) { 
+        margin-left: 61px;
+    }
+}
+
+
+
 
 .nav-pink {
     color: #D41443 !important;
@@ -41,6 +74,11 @@ nav {
     margin-right: 35px;
 }
 
+.container-nav {
+    width: 1400px;
+    margin: 0 auto;
+}
+
 .nav-btn {
     width: 159px;
     height: 44px;
@@ -54,6 +92,12 @@ nav {
     line-height: normal;
     border-radius: 22px;
     background: #FFF;
+    @include adaptive(tablet-only) { 
+        margin-left: 0; 
+    }
+    @include adaptive(mobile-only) { 
+       display: none; 
+    }
 }
 
 
