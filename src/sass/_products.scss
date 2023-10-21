@@ -210,25 +210,33 @@
 .product_div_color_pink {
     background: #FFB8CA;
     &::before {
-            content: "";
-            background-image: url("../images/strawberry-ice-1x.png");
-
+        @media (min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
+            background-image: url("../images/strawberry-ice-2x.png");
+        };
+        background-image: url("../images/strawberry-ice-1x.png");  
         }
 }
 
 .product_div_color_yellow {
     background: #F0D1A5;
     &::before {
-            content: "";
-            background-image: url("../images/ice-coffe-1x.png");
+        @media (min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
+            background-image: url("../images/ice-coffe-2x.png");
+        };
+        background-image: url("../images/ice-coffe-1x.png"); 
         }
 }
+
 
 .product_div_color_green {
     background: #C2E297;
     &::before{
-        content: "";
+        @media (min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
+            background-image: url("../images/milkshake-2x.png");
+        };
         background-image: url("../images/milkshake-1x.png");
-    }
+        }
+        
 }
+
 
