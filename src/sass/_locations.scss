@@ -23,6 +23,12 @@
     }
 }
 
+@include adaptive(tablet-only) { 
+    .locations-list-item:not(:last-child) {
+        margin-right: 20px;
+ }
+}
+
 .locations-list-box {
     position: relative;
     padding-top: 51px;
@@ -119,8 +125,8 @@
     border-bottom: 1px  solid #907E82;
     margin-bottom: 12px;
     @include adaptive(tablet-only) { 
-        // width: 145px;
-        // height: 65px;
+        width: 159px;
+        height: 80px;
         color: #907E82;
         font-family: DM Sans;
         font-size: 14px;
