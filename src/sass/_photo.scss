@@ -8,11 +8,13 @@
 .collage-img {
     width: 1280px;
     margin: 0 auto;
-    @media screen and (max-width:1199px){
+    @include adaptive(tablet-only) { 
         width: 786px;
-    };
-
-    @media screen and (max-width:767px){
+        height: 264px;
+      }
+    @include adaptive(mobile-only) { 
         width: 364px;
-    }
+        height: 122px;
+      }
+
 }

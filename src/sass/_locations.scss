@@ -217,6 +217,10 @@
 .locations-btn-box {
     display: flex;
     justify-content: center;
+    @include adaptive(mobile-only) { 
+       flex-wrap: wrap;
+       justify-content: flex-start;
+     }
 }
 
 .locations-btn-one {
@@ -231,7 +235,13 @@
     font-style: normal;
     font-weight: 700;
     margin-right: 54px;
-    line-height: normal;    
+    line-height: normal;   
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    &:hover {
+        background: #ec0037;
+        color: #fff;
+        cursor: pointer;
+    }   
 }
 
 .locations-btn-two {
@@ -245,5 +255,11 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;    
+    line-height: normal;  
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    &:hover {
+        background: #ECEBEB;
+        color: #D41443;
+        cursor: pointer;
+    }  
 }
