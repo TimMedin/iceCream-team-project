@@ -3,7 +3,19 @@
         <h3 class="abouth3">tradition and love </h3>
         <h2 class="abouth2">how it’s made?</h2>
         <div class="aboutdiv">
-            <img class="aboutimg" src="./images/cow-1x.png" alt="" >
+            <picture>
+                <source srcset="./images/cow-1x.png 1x, ./images/cow-pc-2x.webp 2x"
+                    media="(min-width: 1280px)" />
+
+                <source srcset="./images/cow-tablet-1x.webp 1x, ./images/cow-tablet-2x.webp 2x"
+                    media="(min-width: 768px)" />
+
+                <source srcset="./images/cow-phone-1x.webp 1x, ./images/cow-phone-2x.webp 2x"
+                    media="(min-width: 320px)" />
+                    
+                <img class="aboutimg" src="./images/cow-phone-1x.webp" alt="">
+            </picture>
+            
             <div class="aboutdiv2">
             <p class="aboutp1">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
             <p class="aboutp2">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
