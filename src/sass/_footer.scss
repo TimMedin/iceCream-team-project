@@ -1,6 +1,14 @@
 .footer{
     background-color: #FFF5F6;
     padding-bottom: 10px;
+    padding-top: 165px;
+    @media screen and (max-width:1199px) {
+        padding-bottom: 18px;
+    };
+    @media screen and (max-width:767px) {
+        padding-top: 113px;
+        padding-bottom: 25px;
+    }
 }
 
 .footer-pre-haeding{
@@ -12,6 +20,13 @@
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    @media screen and (max-width:1199px) {
+        font-size: 26px;
+        letter-spacing: 1.04px;
+    };
+    @media screen and (max-width:767px) {
+        font-size: 18px;
+    }
 }
 
 .footer-heading{
@@ -25,6 +40,14 @@
     line-height: normal;
     letter-spacing: 3.48px;
     text-transform: uppercase;
+    @media screen and (max-width:1199px) {
+        font-size: 48px;
+        letter-spacing: 2.88px;
+    };
+    @media screen and (max-width:767px) {
+        font-size: 34px;
+        letter-spacing: 1.36px;
+    }
 }
 
 .contact-link{
@@ -36,6 +59,12 @@
     line-height: 186%;
     /* 29.76px */
     letter-spacing: 0.32px;
+    @media screen and (max-width:1199px) {
+        font-size: 14px;
+    };
+    @media screen and (max-width:767px) {
+        font-size: 12px;
+    }
 }
 
 .last-info{
@@ -49,28 +78,55 @@
     /* 26.04px */
     letter-spacing: 0.28px;
     text-align: center;
+    @media screen and (max-width:1199px) {
+    };
+    @media screen and (max-width:767px) {
+        line-height: 152%;
+        width: 150px;
+    }
 }
 
 .main-flex{
-    margin-top: 165px;
     display: flex;
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+    }
 }
 
 .heading-flex{
     width: 480px;
     margin-right: 251px;
+    @media screen and (max-width:1199px) {
+        margin-right: 86px;
+        width: 346px;
+    };
+    @media screen and (max-width:767px) {
+        margin-right: 0;
+        margin-bottom: 43px;
+        width: 238px;
+    }
 }
-
-
 
 .info-list{
     display: flex;
     margin-left: 169px;
     margin-bottom: 50px;
+    @media screen and (max-width:1199px) {
+        margin-left: 112px;
+    };
+    @media screen and (max-width:767px) {
+        margin-left: 83px;
+    }
 }
 
 .info-list-item:not(:last-child){
     margin-right: 24px;
+    @media screen and (max-width:1199px) {
+        margin-right: 30px;
+    };
+    @media screen and (max-width:767px) {
+        margin-right: 28px;
+    }
 }
 
 .line{
@@ -78,6 +134,12 @@
     width: 100%;
     height: 1px;
     background-color: #E1E1E1;
+    @media screen and (max-width:1199px) {
+        margin-top: -50px;
+    };
+    @media screen and (max-width:767px) {
+        margin-top: -59px;
+    }
 }
 
 // ___________________footer_icons_____________________________________
