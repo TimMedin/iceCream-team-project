@@ -6,4 +6,12 @@
 .collage-img {
     width: 1280px;
     margin: 0 auto;
+    @include adaptive(tablet-only) { 
+        width: 786px;
+        height: 264px;
+      }
+    @include adaptive(mobile-only) { 
+        width: 364px;
+        height: 122px;
+      }
 }
