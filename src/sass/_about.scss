@@ -134,7 +134,7 @@ margin-bottom: 45px;
 }
 
 
-@media  screen and (max-width: 772px) {
+@include adaptive(tablet-only) {
     .about{
         padding-top: 130px;
         width: 100%;
@@ -209,7 +209,7 @@ font-weight: 700;
 line-height: 174%; /* 24.36px */
     }
 }
-@media  screen and (max-width: 320px) {
+@include adaptive(mobile-only) {
     .about{
         padding-top: 125px;
         width: 100%;

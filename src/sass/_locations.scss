@@ -12,6 +12,10 @@
 .locations-list {
     display: flex;
     padding-bottom: 86px;
+    @include adaptive(mobile-only) { 
+        flex-direction: column;
+        align-items: center;
+     }
 }
 
 .locations-list-item {
@@ -21,6 +25,13 @@
     &:not(:last-child) {
         margin-right: 29px;
     }
+    @include adaptive(mobile-only) { 
+        width: 220px;
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+     }
+
+     
 }
 
 @include adaptive(tablet-only) { 
@@ -91,6 +102,16 @@
         line-height: 186%; /* 26.04px */
         letter-spacing: 0.56px;
      }
+     @include adaptive(mobile-only) { 
+        width: 125.172px;
+        color: #000;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%; /* 22.32px */
+     }
+     
 }
 
 .locations-h2 {
@@ -134,6 +155,15 @@
         font-weight: 500;
         line-height: 166%; /* 23.24px */
      }
+     @include adaptive(mobile-only) { 
+        width: 132px;
+        color: #907E82;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */ 
+     }
     
 }
 
@@ -145,11 +175,24 @@
     font-weight: 500;
     line-height: 186%;
     margin-bottom: 15px;
+    @include adaptive(mobile-only) { 
+        width: 132.898px;
+        height: 23px;
+        color: #FFA5BA;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%; /* 22.32px */
+     }
 }
 
 .time-line {
     height: 65px;
     border-bottom: 1px  solid #907E82;
+    @include adaptive(mobile-only) { 
+        height: 47px;
+     }
 }
 
 .locations-footer-text {
@@ -159,6 +202,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: 183%; /* 29.28px */
+    @include adaptive(mobile-only) { 
+        width: 179px;
+        height: 37px;
+        color: #907E82;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */
+     }
 }
 
 .locations-btn-box {
