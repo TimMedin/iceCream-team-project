@@ -219,7 +219,7 @@
     justify-content: center;
     @include adaptive(mobile-only) { 
        flex-wrap: wrap;
-       justify-content: flex-start;
+       justify-content: center;
      }
 }
 
@@ -241,7 +241,12 @@
         background: #ec0037;
         color: #fff;
         cursor: pointer;
-    }   
+    }  
+    @include adaptive(mobile-only) { 
+        margin-right: 0;
+        margin-bottom: 10px;
+        
+      }
 }
 
 .locations-btn-two {

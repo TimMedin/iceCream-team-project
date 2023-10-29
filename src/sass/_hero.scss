@@ -101,15 +101,20 @@
 }
 
 .hero-box {
+    width: 1135px;
+    padding: 0px 10px;
+    margin: 0 auto;
     padding-top: 171px;
     margin-bottom: 55px;
     position: relative;
     @include adaptive(tablet-only) { 
        padding-top: 100px;
        margin-bottom: 4px;
+       width: auto;
     }
     @include adaptive(mobile-only) { 
         padding-bottom: 160px;
+        width: auto;
      }
 }
 

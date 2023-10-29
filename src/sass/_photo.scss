@@ -11,7 +11,7 @@
         height: 264px;
       }
     @include adaptive(mobile-only) { 
-        width: 364px;
+        max-width: 90%;
         height: 122px;
       }
 }
