@@ -82,6 +82,11 @@
     background: #D41443;
     width: 104px;
     height: 40px;
+    &:hover {
+        background: #ec0037;
+        color: #fff;
+        cursor: pointer;
+    } 
     @include adaptive(tablet-only) { 
         width: 61px;
         height: 24px;
@@ -107,6 +112,7 @@
     padding-top: 171px;
     margin-bottom: 55px;
     position: relative;
+    z-index: 100;
     @include adaptive(tablet-only) { 
        padding-top: 100px;
        margin-bottom: 4px;

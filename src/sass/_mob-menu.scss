@@ -13,6 +13,7 @@
     height: 487px;
     top: 0;
     right: 0;
+    width: 100%;
     background: #E17992;
     z-index: 150;
     // transform: translateX(100%);
@@ -31,7 +32,6 @@
 
 .mob-menu-btn {
    display: block;
-   margin: 0 auto;
    margin-top: 23px;
    margin-bottom: 32px;
    width: 186px;
@@ -51,6 +51,12 @@
         color: #FFF;
         cursor: pointer;
     }
+    @include adaptive(mobile-only) { 
+        margin: 0 auto;
+        margin-top: 23px;
+        margin-bottom: 32px;
+        width: 250px;
+      }
  
 
 }
