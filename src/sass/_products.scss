@@ -200,11 +200,20 @@
     height: 40px;
     border-radius: 50%;
     margin: auto;
-
-    &:hover {
-        cursor: pointer;
-    }
+    background-color: #FFF;
+    color: #FFF;
+    transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
 }
+
+.product-button:hover i {
+        color: #fff !important;
+        transform: translateX(2.3px) scale(1.2);
+        cursor: pointer;
+}
+
+
+
+
 
 
 .product_div_color_pink {

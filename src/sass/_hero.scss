@@ -82,11 +82,14 @@
     background: #D41443;
     width: 104px;
     height: 40px;
+    transition: all 0.3s ease;
     &:hover {
-        background: #ec0037;
-        color: #fff;
+        letter-spacing: 1px;
         cursor: pointer;
-    } 
+        background-color: #D41443;
+        color: hsl(0, 0%, 100%);
+        box-shadow: #D41443 0px 7px 29px 0px;
+       }
     @include adaptive(tablet-only) { 
         width: 61px;
         height: 24px;
@@ -107,20 +110,21 @@
 
 .hero-box {
     width: 1135px;
-    padding: 0px 10px;
     margin: 0 auto;
+    padding: 0px 10px;
     padding-top: 171px;
     margin-bottom: 55px;
     position: relative;
-    z-index: 100;
     @include adaptive(tablet-only) { 
        padding-top: 100px;
        margin-bottom: 4px;
        width: auto;
+       z-index: 3;
     }
     @include adaptive(mobile-only) { 
         padding-bottom: 160px;
         width: auto;
+        z-index: 3;
      }
 }
 
@@ -137,6 +141,13 @@
     border-radius: 20px;
     background: #FFF;
     z-index: 10;
+    transition: all 0.3s ease;
+    &:hover {
+        letter-spacing: 1px;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: #fff 0px 7px 29px 0px;
+       }
     @include adaptive(tablet-only) { 
         width: 82px;
         height: 24px;

@@ -72,11 +72,14 @@ margin-bottom: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: all 0.3s ease;
     &:hover {
-        background-color: #ECEBEB;
+        letter-spacing: 1px;
         cursor: pointer;
-    }
+        background-color: #D41443;
+        color: hsl(0, 0%, 100%);
+        box-shadow: #D41443 0px 7px 29px 0px;
+       }
 }
 .aboutbox{
     display: flex;

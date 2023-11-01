@@ -200,6 +200,7 @@ $social-button-colors: (
     &:focus,
     &:hover {
         color: $social-button-active-color;
+        cursor: pointer;
 
         &::after {
             width: calc(100% + 2px);
