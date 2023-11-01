@@ -109,6 +109,7 @@ nav {
     transition: all 0.3s ease;
     &:hover {
         letter-spacing: 1px;
+        cursor: pointer;
         background-color: #D41443;
         color: hsl(0, 0%, 100%);
         box-shadow: #D41443 0px 7px 29px 0px;
@@ -120,5 +121,7 @@ nav {
        display: none; 
     }
 }
+
+
 
 
